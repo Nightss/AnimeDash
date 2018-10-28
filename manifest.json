@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+
+  "name": "Anime Dash",
+  "description": "Keep update with the latest anime with chrome notifcations!",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "ad-icon.svg"
+  },
+
+  "chrome_url_overrides" : {
+    "newtab": "main.html"
+  },
+
+  "permissions": [
+    "activeTab",
+    "storage"
+  ]
+}

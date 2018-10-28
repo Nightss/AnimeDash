@@ -1,0 +1,118 @@
+/* Appendix */
+/*
+  Global:
+    Grid System
+    Background
+    Nav
+
+  Pages:
+*/
+/* End Appendix */
+
+/* Grid Systsem */
+.aa-container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.aa-container *{
+  box-sizing: border-box;
+}
+.aa-row:before, .aa-row:after {
+  content:"";
+  display: table ;
+  clear:both;
+}
+
+[class*='aa-col-'] {
+  width: 8.33%;
+  min-height: 1px;
+  float: left;
+}
+
+.aa-col-1 {
+  width: 8.33%;
+}
+.aa-col-2 {
+  width: 16.66%;
+}
+.aa-col-3 {
+  width: 25%;
+}
+.aa-col-4 {
+  width: 33.33%;
+}
+.aa-col-5 {
+  width: 41.66%;
+}
+.aa-col-6 {
+  width: 50%;
+}
+.aa-col-7 {
+  width: 58.33%;
+}
+.aa-col-8 {
+  width: 66.66%;
+}
+.aa-col-9 {
+  width: 75%;
+}
+.aa-col-10 {
+  width: 83.33%;
+}
+.aa-col-11 {
+  width: 91.66%;
+}
+.aa-col-12 {
+  width: 100%;
+}
+
+.aa-col-20 {
+  width: 20%;
+}
+
+.aa-col-80 {
+  width: 80%;
+}
+/* End of Grid Systems */
+
+/* Head */
+.ad-head {
+  min-height: 200px;
+  max-height: 200px;
+  padding: 0px 5px 0px 5px;
+}
+/* End Head */
+
+/* Call To Action */
+.ad-call-to-action {
+  text-align: center;
+}
+/* End of Call To Action */
+
+/*  Main */
+#ad-main {
+  width: 100%;
+  min-height: 535px;
+  max-height: 535px;
+  overflow-y: scroll;
+}
+
+.ad-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.ad-card {
+  background-color: black;
+  width: 250px;
+  height: 300px;
+  margin-top: 30px;
+  margin-right: 50px;
+}
+/*  End of Main */
